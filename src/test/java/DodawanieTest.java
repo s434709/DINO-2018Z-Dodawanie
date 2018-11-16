@@ -24,5 +24,12 @@ public class DodawanieTest {
             org.junit.Assert.assertEquals(Integer.toString(a+b), DodawanieLib.dodaj(Integer.toString(a),Integer.toString(b)));
         }
     }
+    
+    @Test
+    public void test4(){
+    	int a = 10001;
+    	int b = 0;
+        org.junit.Assert.assertEquals(Integer.toString(a+b), DodawanieLib.dodaj(Integer.toString(a),Integer.toString(b)));
+    }
 
 }
